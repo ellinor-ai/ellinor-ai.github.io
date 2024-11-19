@@ -12,4 +12,3 @@ app = Flask(__name__)
 @app.route("/prompt")
 def Prompt():
     question = request.args.get('question')
-                                
